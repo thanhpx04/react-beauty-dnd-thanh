@@ -1,0 +1,20 @@
+modules:
+  jira:adminPage:
+    - key: react-beauty-dnd-hello-world-admin-page
+      resource: main
+      resolver:
+        function: resolver
+      title: React-beauty-dnd
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+permissions:
+  scopes: [read:jira-work,write:jira-work]
+  content:
+    styles:
+      - 'unsafe-inline'
+app:
+  id: ari:cloud:ecosystem::app/f7bb47b9-d30f-460f-bdb6-8536a6203543

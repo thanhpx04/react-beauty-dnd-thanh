@@ -62,26 +62,32 @@ export const data = [
 export const tableColumns = [
   {
     title: "Issue Key",
-    dataIndex: "key"
+    dataIndex: "key",
+    isDisplayed: true
   },
   {
     title: "Type",
-    dataIndex: "type"
+    dataIndex: "type",
+    isDisplayed: true
   },
   {
     title: "Summary",
-    dataIndex: "summary"
+    dataIndex: "summary",
+    isDisplayed: true
   },
   {
     title: "Story point",
-    dataIndex: "storypoint"
+    dataIndex: "storypoint",
+    isDisplayed: true
   },
   {
     title: "Assignee",
-    dataIndex: "assignee"
+    dataIndex: "assignee",
+    isDisplayed: true
   },
   {
     title: "Status",
-    dataIndex: "status"
+    dataIndex: "status",
+    isDisplayed: true
   }
 ];
